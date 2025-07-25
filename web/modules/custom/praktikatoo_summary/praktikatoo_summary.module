@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Praktikatöö summary moodul.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function praktikatoo_summary_theme() {
+  return [
+    'praktikatoo_summary' => [
+      'variables' => [
+        'aeg' => NULL,
+        'kogemus' => NULL,
+        'keerulisim' => NULL,
+        'oppimised' => NULL,
+        'kuupaev' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function praktikatoo_summary_page_attachments_alter(array &$attachments) {
+  foreach ($attachments['#attached']['html_head'] as $key => $attachment) {
+    if (isset($attachment[1]) && $attachment[1] === 'system_meta_generator') {
+      unset($attachments['#attached']['html_head'][$key]);
+    }
+  }
+}

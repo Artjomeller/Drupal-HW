@@ -1,0 +1,5 @@
+name: 'Praktikatöö Kokkuvõte'
+type: module
+description: 'Praktikatöö lahenduse kokkuvõte ja metaandmete eemaldamine'
+core_version_requirement: ^11
+package: Custom

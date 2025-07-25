@@ -1,0 +1,7 @@
+praktikatoo_summary.summary:
+  path: '/praktikatoo-kokkuvote'
+  defaults:
+    _controller: '\Drupal\praktikatoo_summary\Controller\SummaryController::summary'
+    _title: 'Praktikatöö Kokkuvõte'
+  requirements:
+    _permission: 'access content'
