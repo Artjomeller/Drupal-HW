@@ -1,0 +1,24 @@
+# Estonian translation of log_stdout (3.0.0)
+# Copyright (c) 2025 by the Estonian translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: log_stdout (3.0.0)\n"
+"POT-Creation-Date: 2025-05-19 11:46+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Estonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Logging"
+msgstr "Logimine"
+msgid "Yes"
+msgstr "Jah"
+msgid "No"
+msgstr "Ei"
+msgid "Format"
+msgstr "Vorming"
+msgid "Severity level"
+msgstr "Ohuaste"
